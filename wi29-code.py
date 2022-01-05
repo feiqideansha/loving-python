@@ -3,8 +3,8 @@ import openpyxl
 import time
 start = time.time()
 
-input_file = "D:\我爱学习\Computational Methods for Logistics\Assignment\Coding\wi29.xlsx"
-input_file_profit = "D:\我爱学习\Computational Methods for Logistics\Assignment\Coding\wi29_profit.xlsx"
+input_file = "wi29.xlsx" #Please enter the correct file path here.
+input_file_profit = "wi29_profit.xlsx" #Please enter the correct file path here.
 excel = openpyxl.load_workbook(input_file)
 excel_profit = openpyxl.load_workbook(input_file_profit)
 sheet = excel.active
